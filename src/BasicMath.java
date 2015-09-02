@@ -6,8 +6,6 @@ class BasicMath
         return a + b;
     }
 
-    // TODO: subtract
-
     public int div(int a, int b)
     {
         return a / b;
@@ -17,4 +15,10 @@ class BasicMath
     {
         return a * b;
     }
+
+    public int sub(int a, int b)
+    {
+        return a - b;
+    }
+
 }
